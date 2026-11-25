@@ -1,0 +1,18 @@
+Build and submit a make.fun bounty entry for Muhammad. Read ~/workspace/custom-skills/makefun_bounty_submission/SKILL.md first and follow it exactly.
+
+BOUNTY:
+- Slug: u-deranalabs-invent-a-word-we-need-17a020e0
+- Title: "Invent a Word We Need"
+- Prize: $5 total (1st $2, 2nd $2, 3rd $1)
+- Deadline: 27 Nov 2026 16:55 WIB (2026-11-27T09:55:00Z)
+- Entry: invent ONE new English word that does not exist yet + define it in one clear line of at most 140 characters. The word must fill a real gap, be sayable/spellable/memorable. Program writes the text to /output/entry.txt (program/v1 harness, text media). Fee $0, no on-chain cost, no paid API key.
+- Bounty page: https://make.fun/bounty/u-deranalabs-invent-a-word-we-need-17a020e0
+- Kit: https://make.fun/c/u-deranalabs-invent-a-word-we-need-17a020e0/kit — download it and read RULES.txt before building.
+
+WORK:
+1. Create the public repo under GitHub user rinoo9 with the PAT connector. Work in ~/workspace/u-deranalabs-invent-a-word-we-need-17a020e0/.
+2. Payout wallet in .makefun/owner.json: 3SmXwR1tF6XNtLWqN8qKGiL8d29T3x5ib7SsgsVMu8f4. Agent keypair + make.fun API key already exist under ~/.makefun/ (credentials, keypairs).
+3. Build the entry following the skill: start `makefun record` BEFORE the build session, use the run-record flags, deterministic program run twice with byte-identical output, README badges from RULES.txt, SPDX license line, repo About website = bounty page, topic makefun. Run the kit pre-submit check on the exact commit, fix failures, submit with --repo-url https://github.com/rinoo9/u-deranalabs-invent-a-word-we-need-17a020e0.git (PAT-created repos have no beacon root, --source fails). Check live quota first with the kit CLI; never resubmit an accepted entry.
+4. Verify submission status after submit; confirm all checks pass.
+
+STOP RULE (hard): if the kit quota check, pre-submit check, or submit hits any security flag / execution-risk notice, STOP immediately and report it. Do not retry past it, do not work around it, do not continue on your own judgment. A prior approval never covers a new flag.
