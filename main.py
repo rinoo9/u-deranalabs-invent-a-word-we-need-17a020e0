@@ -5,6 +5,8 @@ Writes one invented English word with a one-line definition (at most
 randomness, no input.
 """
 
+import os
+
 ENTRY = "sendshame \u2014 the instant regret of spotting a typo the second after you press send."
 
 MAX_CHARS = 140
@@ -18,7 +20,11 @@ def main():
         raise SystemExit("entry must be a single line")
     if len(line) > MAX_CHARS:
         raise SystemExit(f"entry is {len(line)} characters, over the 140 limit")
-    import os
+    if " \u2014 " not in line:
+        raise SystemExit("entry must be '<word> — <definition>'")
+    word = line.split(" \u2014 ", 1)[0]
+    if not word.isalpha() or not word.islower():
+        raise SystemExit("invented word must be a single lowercase word")
 
     os.makedirs("/output", exist_ok=True)
     with open("/output/entry.txt", "w", encoding="utf-8") as f:
