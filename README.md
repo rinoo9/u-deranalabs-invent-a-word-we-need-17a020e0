@@ -8,9 +8,9 @@ One-word entry for the make.fun bounty "Invent a Word We Need".
 
 ## The word
 
-> sendshame — the instant regret of spotting a typo the second after you press send.
+> meetigue — the exhaustion that arrives before a meeting that should have been an email.
 
-82 characters, one line. A new English word for a feeling everyone who texts knows: the flash of regret when a typo reveals itself the moment a message is already sent, too late to unsend.
+86 characters, one line. A new English word for a feeling every office worker knows: the tiredness that sets in before a meeting that should have been an email, before anyone has even spoken.
 
 ## Run
 
