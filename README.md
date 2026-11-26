@@ -10,7 +10,7 @@ One-word entry for the make.fun bounty "Invent a Word We Need".
 
 > meetigue — the exhaustion that arrives before a meeting that should have been an email.
 
-86 characters, one line. A new English word for a feeling every office worker knows: the tiredness that sets in before a meeting that should have been an email, before anyone has even spoken.
+87 characters, one line. A new English word for a feeling every office worker knows: the tiredness that sets in before a meeting that should have been an email, before anyone has even spoken.
 
 ## Run
 
