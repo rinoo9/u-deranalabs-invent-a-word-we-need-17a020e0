@@ -7,7 +7,7 @@ randomness, no input.
 
 import os
 
-ENTRY = "sendshame \u2014 the instant regret of spotting a typo the second after you press send."
+ENTRY = "meetigue \u2014 the exhaustion that arrives before a meeting that should have been an email."
 
 MAX_CHARS = 140
 
